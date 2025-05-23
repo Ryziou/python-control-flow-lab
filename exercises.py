@@ -289,7 +289,7 @@ def guess_number():
                 print('Sorry, you failed to guess the number in five attempts')
                 break
         except ValueError:
-            ('Please only use numbers')
+            print('Please only use numbers')
 
 # Call the function
 guess_number()
